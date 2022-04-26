@@ -16,3 +16,39 @@ h1 {
     margin: 30px 0;
 }
 
+img {
+    width: 100px;
+}
+
+.container {
+    width: calc(75% / 3);
+    text-align: center;
+    background-color: black;
+    margin: 50px 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    color: white;
+    padding-left: 5px;
+}
+
+h3 {
+    color: white;
+    padding: 5px;
+}
+
+.mail {
+    color: #49a3ca;
+    padding-top: 5px;
+}
+

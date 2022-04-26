@@ -24,14 +24,15 @@ img {
     width: calc(75% / 3);
     text-align: center;
     background-color: black;
-    margin: 50px 70px;
+    margin: 40px 50px;
+    box-shadow: black;
 }
 
 .float-left {
     float: left;
 }
 
-.container::after {
+.clearfix::after {
     content: "";
     clear: both;
     display: table;
